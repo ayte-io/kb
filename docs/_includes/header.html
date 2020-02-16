@@ -6,7 +6,7 @@
         <div class="nav-wrapper">
         <div class="container">
         <div class="kb-nav-container">
-        <a class="white-text brand-logo waves-effect waves-light" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+          {%- include component/nav/link.liquid page=root classes='brand-logo' title='Ayte Knowledge Base' -%}
 
         <ul class="kb-nav-links">
           {%- assign aggregate_path = '' -%}
@@ -17,13 +17,15 @@
             {%- assign cursor = site.pages | where: 'path', page_path | first -%}
             {%- if cursor and cursor.title -%}
               <li>
-              <a class="waves-effect waves-light" href="{{ cursor.url | relative_url }}">/ {{ cursor.title | escape }}</a>
+                {%- assign _title = cursor.title | prepend: '/ ' -%}
+                {%- include component/nav/link.liquid page=cursor title=_title -%}
               </li>
             {%- endif -%}
           {%- endfor -%}
           {%- unless page.path contains 'index.md' -%}
             <li>
-              <a class="waves-effect waves-light" href="{{ page.url | relative_url }}">/ {{ page.title | escape }}</a>
+              {%- assign _title = page.title | prepend: '/ ' -%}
+              {%- include component/nav/link.liquid page=page title=_title -%}
             </li>
           {%- endunless -%}
         </ul>
