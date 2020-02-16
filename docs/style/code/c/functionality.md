@@ -1,0 +1,1 @@
+- do not leave malloc return without proper checking

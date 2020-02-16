@@ -1,5 +1,6 @@
 ---
 title: Style Guides
+layout: index
 ---
 
 This section contains style guides on writing code, maintaining repos, 
