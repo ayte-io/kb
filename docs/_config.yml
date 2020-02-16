@@ -4,7 +4,7 @@ theme: minima
 plugins: []
 defaults:
   - scope:
-      path: ""
+      path: ''
     values:
       layout: page
 
