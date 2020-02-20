@@ -3,7 +3,8 @@ title: Knowledge Base
 layout: index
 descendants:
   - dogma
-  - style
+  - convention
+  - runbook
 ---
 
 This is [Ayte Labs](https://ayte.io) knowledge base, a storage for
