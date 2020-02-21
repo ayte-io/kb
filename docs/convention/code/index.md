@@ -1,5 +1,5 @@
 ---
-title: Style Guides
+title: Coding
 layout: index
 ---
 
