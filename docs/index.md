@@ -4,7 +4,6 @@ layout: index
 descendants:
   - dogma
   - convention
-  - runbook
 ---
 
 This is [Ayte Labs](https://ayte.io) knowledge base, a storage for
