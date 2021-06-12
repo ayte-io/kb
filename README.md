@@ -3,7 +3,7 @@
 You are in repository that contains Ayte's knowledge base sources. At
 the time of writing, it was intended to be built at 
 [https://kb.ayte.io](https://kb.ayte.io) and 
-[https://ayte.github.io/kb/](https://ayte.github.io/kb/).
+[https://ayte-io.github.io/kb/](https://ayte-io.github.io/kb/).
 
 ## Licensing
 
